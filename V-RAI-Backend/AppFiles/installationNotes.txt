@@ -1,0 +1,15 @@
+###
+Note that this project requires ffmpeg installed on the host.
+
+If its a container or just directly on host system, just have ffmpeg installed
+
+And if its on a venv, also do this: in pyenv.vfg set include-system-site-packages = true
+Do this only once you installed requirements, or pip packages install to host instead
+and set that to flase for regenrating requirements!!!
+
+####
+Python version used is v3.10.6
+Use this if you want to ensure compatibility.
+On python versions from 3.11, pytorch - a crucial python package used in this project
+, is not supported at all!!! So the project won't run above this version.
+

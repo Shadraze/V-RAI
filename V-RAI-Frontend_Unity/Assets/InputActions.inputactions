@@ -1,0 +1,54 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "VR",
+            "id": "c73886fe-f262-42f2-995c-8db95a9577d8",
+            "actions": [
+                {
+                    "name": "A",
+                    "type": "Button",
+                    "id": "dc8c06e4-a4cf-4580-8dd4-e284a7161588",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StartServer",
+                    "type": "Button",
+                    "id": "1cdc8b53-9319-45dd-a31d-0297d7ec643a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c4534eec-4c4e-44ef-94c5-bb0a5290d12a",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1f25c0c-b576-4b85-b251-5ab4fb998a99",
+                    "path": "<Keyboard>/numpadEnter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartServer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
