@@ -7,7 +7,7 @@ This constitutes the backend of the project.
 The frontend of the project is in Unity, more specifically you want to use Unity 2022 to compatibility. The Meta Quest 2 is also a requirement
 as the project was made with that headset in mind.
 
-The backend of the project can still run without a frontend through POST requests on the Flask API.
+The backend of the project can still run without a frontend through Websockets.
 
 Note:
 The OpenAI API key in V-RAI-Backend/AppFiles/AI/Generation/TextToText.py is invalid. In order for the project to work, an OpenAI API key is needed! 
