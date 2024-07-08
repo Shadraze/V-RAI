@@ -7,7 +7,8 @@ This constitutes the backend of the project.
 The frontend of the project is in Unity, more specifically you want to use Unity 2022 to compatibility. The Meta Quest 2 is also a requirement
 as the project was made with that headset in mind. A 3D model of an android is displayed as a 'virtual assistant' to the user. 
 
-Through specific prompt manipulation of prompts during TextToText generation, the AI is able to respond in JSON to trigger some basic tasks in Unity.
+Through specific prompt manipulation of prompts during TextToText generation (V-RAI-Backend/AppFiles/AI/Generation/inital.py), 
+the AI is able to respond in JSON to trigger some basic tasks in Unity through function calls specified in the JSON.
 
 The backend of the project can still run without a frontend through Websockets.
 
